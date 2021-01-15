@@ -1,4 +1,5 @@
 module DI.HelloHowldOpenJFX {
     requires javafx.controls;
-    exports DI.HelloHowldOpenJFX;
+	requires javafx.fxml;
+    exports DI.HelloWorldOpenJFX;
 }

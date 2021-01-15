@@ -1,4 +1,4 @@
-package DI.HelloHowldOpenJFX;
+package DI.HelloWorldOpenJFX;
 
 public class SystemInfo {
 
