@@ -21,7 +21,7 @@ public class App extends Application {
         var javaVersion = "";// SystemInfo.javaVersion();
         var javafxVersion = "";// SystemInfo.javafxVersion();
        
-        Path rutaFicheroFXML = Paths.get(System.getProperty("user.dir"), "src/main/java/DI/HelloWorldOpenJFX/fxml", "Main.fxml");
+        Path rutaFicheroFXML = Paths.get("/DI/HelloWorldOpenJFX/views", "Main.fxml");
         Parent root = null;
     		// We need to add a try catch to avoid Exceptions if the fxml document doesn't exist.
         try {
